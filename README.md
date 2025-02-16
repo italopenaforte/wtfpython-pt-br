@@ -291,13 +291,13 @@ O operador Walrus (`:=`) foi introduzido no Python 3.8 e pode ser útil em situa
 
 ```py
 def some_func():
-        # Finja que tem algum cálculo custoso acontecendo aqui
+        # Finja que há algum cálculo custoso acontecendo aqui
         # time.sleep(1000)
         return 5
 
 # Então , em vez de:
 if some_func():
-        print(some_func()) # O que é uma má prática, o cálculo tá acontecendo duas vezes
+        print(some_func()) # O que é uma má prática porque o cálculo está acontecendo duas vezes
 
 # ou
 a = some_func()
